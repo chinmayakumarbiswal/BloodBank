@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminDonorDetails.aspx" />
     <Content Include="adminLogin.aspx" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\images\auth\Login_bg.jpg" />
@@ -622,6 +623,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminDonorDetails.aspx.cs">
+      <DependentUpon>adminDonorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminDonorDetails.aspx.designer.cs">
+      <DependentUpon>adminDonorDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminLogin.aspx.cs">
       <DependentUpon>adminLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

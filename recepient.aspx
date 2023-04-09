@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="adminLogin.aspx.cs" Inherits="BloodBankProject.adminLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="recepient.aspx.cs" Inherits="BloodBankProject.recepient" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Blood Bank Admin login</title>
+    <title>Blood Bank Recepient Login</title>
     <!-- plugins:css -->
     <link rel="stylesheet" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="../assets/vendors/css/vendor.bundle.base.css">

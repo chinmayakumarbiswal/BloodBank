@@ -77,7 +77,7 @@
           <!-- content-wrapper ends -->
         </div>
         <!-- row ends -->
-      </div>
+      
       <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->

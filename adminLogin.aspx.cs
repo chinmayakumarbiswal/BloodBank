@@ -46,7 +46,7 @@ namespace BloodBankProject
 
             if (dr.Read())
             {
-                Session["email"] = email.Text;
+                Session["adminEmail"] = email.Text;
                 Response.Redirect("adminDonorDetails.aspx");
                 db.Close();
             }

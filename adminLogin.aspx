@@ -32,11 +32,15 @@
                    
                   <div class="form-group">
                     <label>Password</label>
-                    <asp:TextBox ID="number" runat="server" class="form-control p_input" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="pass" runat="server" class="form-control p_input" TextMode="Password"></asp:TextBox>
+                  </div>
+
+                  <div class="form-group">
+                      <asp:Label ID="output" runat="server" ForeColor="Red"></asp:Label>
                   </div>
 
                   <div class="text-center">
-                      <asp:Button ID="login" runat="server" class="btn btn-primary btn-block enter-btn" Text="Login" />
+                      <asp:Button ID="login" runat="server" class="btn btn-primary btn-block enter-btn" Text="Login" OnClick="login_Click" />
                   </div>
                   <p class="sign-up text-center">Register
                       <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="Register.aspx">Log In</asp:HyperLink>

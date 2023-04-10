@@ -33,6 +33,15 @@ namespace BloodBankProject
         protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
+        /// errorName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator errorName;
+
+        /// <summary>
         /// number control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace BloodBankProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox number;
+
+        /// <summary>
+        /// errorNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator errorNumber;
 
         /// <summary>
         /// Address control.
@@ -51,6 +69,15 @@ namespace BloodBankProject
         protected global::System.Web.UI.WebControls.TextBox Address;
 
         /// <summary>
+        /// addresserror control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator addresserror;
+
+        /// <summary>
         /// dob control.
         /// </summary>
         /// <remarks>
@@ -60,6 +87,15 @@ namespace BloodBankProject
         protected global::System.Web.UI.WebControls.TextBox dob;
 
         /// <summary>
+        /// doberror control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator doberror;
+
+        /// <summary>
         /// weight control.
         /// </summary>
         /// <remarks>
@@ -67,6 +103,15 @@ namespace BloodBankProject
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox weight;
+
+        /// <summary>
+        /// weighterror control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator weighterror;
 
         /// <summary>
         /// bloodgroup control.

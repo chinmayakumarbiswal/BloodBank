@@ -28,26 +28,31 @@
                   <div class="form-group">
                     <label>Name</label>
                     <asp:TextBox ID="name" runat="server" class="form-control p_input"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="errorName" runat="server" ErrorMessage="RequiredFieldValidator" Text="Enter Your Name" ControlToValidate="name" ForeColor="Red"></asp:RequiredFieldValidator>
                   </div>
                    
                   <div class="form-group">
                     <label>Phone No</label>
                     <asp:TextBox ID="number" runat="server" class="form-control p_input" TextMode="Number"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="errorNumber" runat="server" ErrorMessage="RequiredFieldValidator" Text="Enter Your Number" ControlToValidate="number" ForeColor="Red"></asp:RequiredFieldValidator>
                   </div>
 
                   <div class="form-group">
                     <label>Address</label>
                     <asp:TextBox ID="Address" runat="server" class="form-control p_input"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="addresserror" runat="server" ErrorMessage="RequiredFieldValidator" Text="Enter Your Adress" ControlToValidate="Address" ForeColor="Red"></asp:RequiredFieldValidator>
                   </div>
                   
                   <div class="form-group">
                     <label>DOB</label>
                     <asp:TextBox ID="dob" runat="server" class="form-control p_input" textmode="Date"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="doberror" runat="server" ErrorMessage="RequiredFieldValidator" Text="Enter Your DOB" ControlToValidate="dob" ForeColor="Red"></asp:RequiredFieldValidator>
                   </div>
 
                   <div class="form-group">
                     <label>Weight</label>
                     <asp:TextBox ID="weight" runat="server" class="form-control p_input" TextMode="Number"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="weighterror" runat="server" ErrorMessage="RequiredFieldValidator" Text="Enter Your weight" ControlToValidate="weight" ForeColor="Red"></asp:RequiredFieldValidator>
                   </div>
                   
                   <div class="form-group">
@@ -61,7 +66,7 @@
                   </div>
 
                   <div class="text-center">
-                      <asp:Button ID="createu" runat="server" class="btn btn-primary btn-block enter-btn" Text="Register" />
+                      <asp:Button ID="createu" runat="server" class="btn btn-primary btn-block enter-btn" Text="Register" OnClick="createu_Click" />
                   </div>
                   <p class="sign-up text-center">Admin
                       <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="adminLogin.aspx">Log In</asp:HyperLink>

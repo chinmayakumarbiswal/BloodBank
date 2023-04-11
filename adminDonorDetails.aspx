@@ -16,6 +16,7 @@
     <link rel="shortcut icon" href="../assets/images/favicon.png" />
   </head>
   <body>
+      <form id="form1" runat="server">
     <div class="container-scroller">
       <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
@@ -88,14 +89,15 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                   <div class="navbar-profile">
                    
-                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Chinmaya Kumar Biswal</p>
+                    
+                    <asp:Label ID="userName" runat="server" Text="Label" class="mb-0 d-none d-sm-block navbar-profile-name"></asp:Label>
                     <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                   </div>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
                   <h6 class="p-3 mb-0">Profile</h6>
                   
-                  <a class="dropdown-item preview-item">
+                  <a class="dropdown-item preview-item" href="logout.aspx">
                     <div class="preview-thumbnail">
                       <div class="preview-icon bg-dark rounded-circle">
                         <i class="mdi mdi-logout text-danger"></i>
@@ -150,68 +152,13 @@
                 <div class="card">
                   <div class="card-body">
                     <h4 class="card-title">Table with contextual classes</h4>
-                    </p>
                     <div class="table-responsive">
-                      <table class="table table-bordered table-contextual">
-                        <thead>
-                          <tr>
-                            <th> Id </th>
-                            <th> Name </th>
-                            <th> Number </th>
-                            <th> Address </th>
-                            <th> DOB </th>
-                            <th> Weight </th>
-                            <th> Blood Group </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr class="table-info">
-                            <td> 1 </td>
-                            <td> Chinmaya Kumar Biswal </td>
-                            <td> 6370183009 </td>
-                            <td> Chilika </td>
-                            <td> 17/09/2000 </td>
-                            <td> 70 </td>
-                            <td> O+ </td>
-                          </tr>
-                          <tr class="table-warning">
-                            <td> 2 </td>
-                            <td> Chinmaya Kumar Biswal </td>
-                            <td> 6370183009 </td>
-                            <td> Chilika </td>
-                            <td> 17/09/2000 </td>
-                            <td> 70 </td>
-                            <td> O+ </td>
-                          </tr>
-                          <tr class="table-danger">
-                            <td> 3 </td>
-                            <td> Chinmaya Kumar Biswal </td>
-                            <td> 6370183009 </td>
-                            <td> Chilika </td>
-                            <td> 17/09/2000 </td>
-                            <td> 70 </td>
-                            <td> O+ </td>
-                          </tr>
-                          <tr class="table-success">
-                            <td> 4 </td>
-                            <td> Chinmaya Kumar Biswal </td>
-                            <td> 6370183009 </td>
-                            <td> Chilika </td>
-                            <td> 17/09/2000 </td>
-                            <td> 70 </td>
-                            <td> O+ </td>
-                          </tr>
-                          <tr class="table-primary">
-                            <td> 5 </td>
-                            <td> Chinmaya Kumar Biswal </td>
-                            <td> 6370183009 </td>
-                            <td> Chilika </td>
-                            <td> 17/09/2000 </td>
-                            <td> 70 </td>
-                            <td> O+ </td>
-                          </tr>
-                        </tbody>
-                      </table>
+
+
+                        <br />
+                        <asp:GridView ID="DonorData" runat="server"  class="table table-bordered">
+                        </asp:GridView>
+
                     </div>
                   </div>
                 </div>
@@ -271,5 +218,6 @@
     <!-- endinject -->
     <!-- Custom js for this page -->
     <!-- End custom js for this page -->
+      </form>
   </body>
 </html>

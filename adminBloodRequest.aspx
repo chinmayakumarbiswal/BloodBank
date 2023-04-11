@@ -143,37 +143,24 @@
               <div class="row">
 
 
-              <div class="col-md-12 grid-margin stretch-card">
-                <div class="card">
-                  <div class="card-body">
-                    <h4 class="card-title">Blood Group</h4>
-                    <ul>
-                      <li>
-                          <asp:Label ID="top" runat="server" Text="Total O+ Blood Group : "></asp:Label><asp:Label ID="dop" runat="server"></asp:Label>
-                      </li>
-                      <li>
-                          <asp:Label ID="tap" runat="server" Text="Total A+ Blood Group : "></asp:Label><asp:Label ID="dap" runat="server"></asp:Label>
-                      </li>
-                      <li>
-                        <asp:Label ID="tbp" runat="server" Text="Total B+ Blood Group : "></asp:Label><asp:Label ID="dbp" runat="server"></asp:Label>
-                      </li>
-                      <li>
-                        <asp:Label ID="tab" runat="server" Text="Total AB+ Blood Group : "></asp:Label><asp:Label ID="dab" runat="server"></asp:Label>
-                      </li>
-                        
+                  <div class="col-lg-12 stretch-card">
+                    <div class="card">
+                      <div class="card-body">
+                        <h4 class="card-title">Table with contextual classes</h4>
+                        <div class="table-responsive">
 
-                    </ul>
+
+                            <br />
+                            <asp:GridView ID="RequestData" runat="server"  class="table table-bordered">
+                            </asp:GridView>
+
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
 
 
               </div>
-
-
-
-
-
 
           </div>
 

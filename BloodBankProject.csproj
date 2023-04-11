@@ -656,6 +656,7 @@
     <Content Include="assets\vendors\typeahead.js\typeahead.bundle.min.js" />
     <Content Include="logout.aspx" />
     <Content Include="recepient.aspx" />
+    <Content Include="recepientDashboard.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -702,6 +703,13 @@
     </Compile>
     <Compile Include="recepient.aspx.designer.cs">
       <DependentUpon>recepient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recepientDashboard.aspx.cs">
+      <DependentUpon>recepientDashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recepientDashboard.aspx.designer.cs">
+      <DependentUpon>recepientDashboard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>

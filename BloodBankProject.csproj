@@ -101,8 +101,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminBloodRequest.aspx" />
     <Content Include="adminDonorDetails.aspx" />
     <Content Include="adminLogin.aspx" />
+    <Content Include="adminStock.aspx" />
     <Content Include="assets\css\style.css" />
     <Content Include="assets\images\auth\Login_bg.jpg" />
     <Content Include="assets\images\auth\scaleexamloginbg.jpg" />
@@ -658,6 +660,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminBloodRequest.aspx.cs">
+      <DependentUpon>adminBloodRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminBloodRequest.aspx.designer.cs">
+      <DependentUpon>adminBloodRequest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminDonorDetails.aspx.cs">
       <DependentUpon>adminDonorDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -671,6 +680,13 @@
     </Compile>
     <Compile Include="adminLogin.aspx.designer.cs">
       <DependentUpon>adminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminStock.aspx.cs">
+      <DependentUpon>adminStock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminStock.aspx.designer.cs">
+      <DependentUpon>adminStock.aspx</DependentUpon>
     </Compile>
     <Compile Include="logout.aspx.cs">
       <DependentUpon>logout.aspx</DependentUpon>
